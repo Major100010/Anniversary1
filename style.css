@@ -1,0 +1,114 @@
+svg {
+  display: block;
+  width: 258px;
+  height: 258px;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.tree {
+  fill: #e73e0d;
+}
+
+.circle-mask {
+  transform-origin: 50% 90%;
+  animation: scale 5s infinite ease-out;
+}
+
+@keyframes scale {
+  0%,
+  100% {
+    transform: scale(0);
+  }
+  7%,
+  90% {
+    transform: scale(0.4);
+  }
+  50% {
+    transform: scale(1);
+  }
+}
+#main {
+  display: none;
+}
+#landing {
+  width: 100vw;
+  height: 100vh;
+  background-image: url(./img/bg.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.wish-wrapper {
+  padding-top: 100px;
+  text-align: center;
+  margin-bottom: 50px;
+}
+.wish {
+  font-family: 'Rye', cursive;
+  font-weight: bolder;
+  font-size: 50px;
+  text-shadow: 2px 2px white;
+}
+.quote {
+  text-align: center;
+  font-size: 30px;
+  font-family: "Sriracha", cursive;
+  text-shadow: 3px 3px #B6C9D4;
+}
+.btn {
+  border: 1px solid black !important;
+
+  margin-top: 10%;
+  margin-left: 48%;
+  background-color: black;
+  color: white;
+  font-size: 15px;
+  font-weight: bold;
+}
+.btn:hover {
+  background-color: #D0D5D8;
+  color: black;
+  font-weight: bolder;
+}
+#counter-section {
+  background: #f7f7f7;
+  padding: 125px 0 60px 0;
+  width: 100vw;
+  height: 100vh;
+}
+
+.counters span {
+  margin-left: 150px;
+  font-size: 60px;
+  display: block;
+  color: #2dc997;
+}
+
+.counters p {
+  padding: 0;
+
+  margin: 0 0 20px 0;
+  margin-left: 155px;
+  font-family: "Poppins", sans-serif;
+  font-size: 25px;
+  font-weight: bold;
+}
+.counter-text {
+  width: 100%;
+  font-size: 50px;
+  font-family: "Sriracha", cursive;
+  text-shadow: 3px 3px #d6f7d5;
+  text-align: center;
+  margin-top: 15px;
+}
+#gallery {
+  padding: 125px 0 60px 0;
+  width: 100vw;
+  height: 100vh;
+}
+.gallery-heading {
+  width: 100%;
+  text-align: center;
+}
